@@ -12,9 +12,14 @@ To run this project locally, you'll need to follow these steps:
  ```bash
   cd Angular_task
 
-3. **test:**
+3. **install node_mdoule:**
  ```bash
- cd Angular_task
-   
+ npm i
 
+4. **run the project:**
+ ```bash
+ ng s
+
+5. **open browser on localhost:4200::**
+ 
 
