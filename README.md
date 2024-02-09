@@ -9,8 +9,9 @@ To get started with this project, follow these steps:
 5. **Open in Browser:** ``http://localhost:4200/``
 
 Start Json server :
-1 **First, you need to install JSON Server globally on your machine:** ``npm install -g json-server``
-1 **start json server:** ``json-server --watch subject.json``
+
+1.**First, you need to install JSON Server globally on your machine:** ``npm install -g json-server``
+2.**start json server:** ``json-server --watch subject.json``
 
 
 
