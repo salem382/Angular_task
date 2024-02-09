@@ -1,0 +1,29 @@
+.drag-list-box {
+    border-radius: 12px;
+    background-color: #FFE8f5;
+}
+.drop-item {
+    background-color: rgba(248, 248, 248, 1);
+    height: 86px;
+    border: 1px dotted rgba(255, 212, 236, 1);
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.drop-item p {
+    color: rgba(9, 36, 52, 0.67);
+    font-size: 14px;
+}
+.choosen-items {
+    flex-wrap:  wrap;
+}
+.choosen-items li {
+    margin:  0 5px;
+    margin-bottom: 5px;
+}
+.choosen-items li::after {
+    content: ",";
+}
+.draged-item {
+    cursor: grabbing;
+}

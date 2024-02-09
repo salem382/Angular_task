@@ -1,0 +1,14 @@
+.icons svg {
+    color: #2759AE;
+}
+
+.header-left-side {
+    width: 75%;    
+}
+
+@media (max-width:767px) {
+    .header-left-side {
+        justify-content: end !important;  
+    }     
+}
+

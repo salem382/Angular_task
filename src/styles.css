@@ -1,0 +1,42 @@
+
+/*global style*/
+:root {
+    --main-color:#FFD4EC;
+    --gray-color:#09243499;
+    --main-color-bold:#FF3BA6
+}
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('assets/fonts/ArbFONTS-DINNextLTArabic-Regular-4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: "DIN Next LT Arabic";
+}
+p {
+    margin: 0;
+}
+button {
+    background: none;
+    border: none;
+}
+.text-main {
+    color: var(--main-color) !important;
+}
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+.text-gray {
+    color: var(--gray-color);
+}
+.text-main-bold {
+    color: var(--main-color-bold);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

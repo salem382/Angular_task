@@ -1,0 +1,43 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul  class="drag-list-box list-unstyled p-0 w-100 p-3" style="height: 300px;">
+                    <li class="head position-relative bg-white rounded d-flex align-items-center justify-content-between p-2">
+                        <h6 class="text-main-bold fw-bold">أسحب نوع السؤال</h6>
+                        <img src="../../../../assets/images/allSubject/hand3.svg" alt="hande" class="ms-4"/>
+                    </li>
+                    <li class="my-3">
+                        <h6 draggable="true" class="draged-item" (dragstart)="onDragStart($event)">اختيار من متعدد</h6>
+                    </li>
+                    <li class="my-3">
+                        <h6 draggable="true"  class="draged-item" (dragstart)="onDragStart($event)">اختيار فردي</h6>
+                    </li>
+                    <li class="my-3">
+                        <h6 draggable="true"  class="draged-item" (dragstart)="onDragStart($event)">نص</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <div class="drop-item" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+                        <p *ngIf="!questionsArray.length; else droppedContent" class="m-0">قم بسحب و ادراج نوع السؤال هنا ..</p>
+                        <ng-template #droppedContent>
+                            <ul class="list-unstyled p-0 d-flex choosen-items">
+                                <li *ngFor="let item of questionsArray">{{item.type| transformWord}}</li>
+                            </ul>
+                        </ng-template>
+                    </div>
+                    <app-question
+                     *ngFor="let question of questionsArray;let i = index"
+                      [questionType]="question.type" 
+                      [questionId]="question.id"
+                      [isSavedAsDraft]="question.isSavedAsDraft"
+                      [questionData]="question.questionDate"
+                      (cancelEvent)="deleteItem($event)"
+                      ></app-question>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

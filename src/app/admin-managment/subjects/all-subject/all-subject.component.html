@@ -1,0 +1,28 @@
+<h5 class="fw-bold container my-3">المواد</h5>
+<section class="allSubjects py-3">
+    <div class="container">
+        <div class="row gy-3 align-items-center">
+            <div class="col-md-6" *ngFor="let subject of subjects">
+                <div class="box">
+                    <div>
+                        <img class="w-100" [src]="subject.image" style="height: 300px;" alt="subject-poster">
+                    </div>
+                    <div>
+                      <h5 class="fw-bold mt-3">{{subject.name}}</h5>
+                      <p class="m-0 text-gray subject-pargraph" style="height: 60px;">{{subject.description}}</p>
+                      <div class="d-flex align-items-center">
+                        <span class="status fw-bold">الحالة :</span>
+                        <span class="status-result mx-3 pb-1" appChangeBackground [customBackground]="subject.status" >{{subject.status}}</span>
+                      </div>
+                      <button class="d-flex align-items-center text-main-bold mt-3 add_train_btn" routerLink="allExam">
+                        <h6>أضافة تمرين</h6>
+                        <span class="mx-2">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

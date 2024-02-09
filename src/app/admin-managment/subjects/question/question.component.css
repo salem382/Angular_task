@@ -1,0 +1,35 @@
+.question_box {
+    padding: 10px;
+    background: #f4f4f4;
+}
+.question_box .question_input {
+    border:  1px solid rgba(0, 0, 0, 0.09);
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    width: 100%;
+    text-indent: 5px;
+}
+.question_box input:focus-visible {
+    outline: none !important;
+}
+.question_box input::placeholder {
+    font-size: 14px;
+}
+.new_choice {
+    font-size: 14px;
+    font-weight: bold;
+}
+.save_as_draft {
+    background-color: rgba(255, 59, 166, 1);
+    color: #fff;
+}
+.cancel_btn {
+    background: rgba(254, 237, 237, 1);
+    color: rgba(247, 5, 5, 1);
+}
+input.ng-invalid.ng-touched {
+    border: 1px solid #f00 !important;
+}
+textarea.ng-invalid.ng-touched {
+    border: 1px solid #f00 !important;
+}

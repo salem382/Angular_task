@@ -1,0 +1,27 @@
+.allSubjects {
+    background-color: #f4f4f4;
+}
+.box {
+    border-radius: 23.84px;
+    background-color: #fff;
+    background-color: #fff;
+    padding: 10px;
+}
+.subject-pargraph {
+    font-size: 14px;
+}
+.status-result {
+    background-color: #080;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1px 5px;
+    display: block;
+}
+.add_train_btn {
+    transition: all .3s ease-in-out;
+    position: relative;
+    bottom: 0;
+}
+.add_train_btn:hover {
+    bottom: 5px;
+}

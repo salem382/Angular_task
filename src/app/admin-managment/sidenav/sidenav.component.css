@@ -1,0 +1,26 @@
+.layout {
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 9;
+}
+svg {
+    fill:var(--gray-color)
+}
+.sidebar {
+    transition: all .3s ease-in-out;
+    box-shadow: 1px 1px 5px 0 #eee;
+    z-index: 10;
+}
+.active-link {
+    background-color: #fff;
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+}
+.active-link > svg {
+    fill:#FF3BA6 !important;
+}
+.list-item {
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+}

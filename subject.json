@@ -1,0 +1,120 @@
+{
+  "subjects":[
+    {
+      "name": "Computer Science 101",
+      "image": "https://appnest.pro/tasksimages/atom-1674878_640.png",
+      "description": "Introduction to the fundamentals of computer science, including algorithms, data structures, and programming.",
+      "status": "active"
+    },
+    {
+      "name": "Web Development",
+      "image":"https://appnest.pro/tasksimages/board-453758_640.jpg",
+      "description": "Exploration of web technologies, covering HTML, CSS, JavaScript, and popular frameworks.",
+      "status": "not active"
+    },
+    {
+      "name": "Database Management",
+      "image": "https://appnest.pro/tasksimages/bullet-457334_640.jpg",
+      "description": "Study of database systems, SQL, and database design principles.",
+      "status": "active"
+    },
+    {
+      "name": "Computer Networks",
+      "image": "https://appnest.pro/tasksimages/matrix-1735640_640.jpg",
+      "description": "Understanding of computer network architectures, protocols, and communication systems.",
+      "status": "not active"
+    },
+    {
+      "name": "Software Engineering",
+      "image": "https://appnest.pro/tasksimages/monitor-1307227_640.jpg",
+      "description": "Principles of software development, including design patterns, testing, and project management.",
+      "status": "active"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "image": "https://appnest.pro/tasksimages/artificial-intelligence-4389372_640.jpg",
+      "description": "Exploration of AI concepts, machine learning, and natural language processing.",
+      "status": "active"
+    },
+    {
+      "name": "Operating Systems",
+      "image": "https://appnest.pro/tasksimages/science-1182713_640.jpg",
+      "description": "Study of operating system concepts, processes, memory management, and file systems.",
+      "status": "not active"
+    },
+    {
+      "name": "Cybersecurity",
+      "image": "https://appnest.pro/tasksimages/digital-388075_640.jpg",
+      "description": "Focus on securing computer systems, networks, and data from cyber threats.",
+      "status": "active"
+    },
+    {
+      "name": "Mobile App Development",
+      "image": "https://appnest.pro/tasksimages/web-3963945_640.jpg",
+      "description": "Development of mobile applications for iOS and Android platforms.",
+      "status": "active"
+    },
+    {
+      "name": "Data Science",
+      "image":"https://appnest.pro/tasksimages/digital-388075_640.jpg",
+      "description": "Exploration of techniques for analyzing and interpreting complex data sets.",
+      "status": "not active"
+    },
+    {
+      "name": "Computer Graphics",
+      "image": "https://appnest.pro/tasksimages/matrix-1735640_640.jpg",
+      "description": "Study of algorithms and techniques for generating visual images and animations.",
+      "status": "active"
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "image": "https://appnest.pro/tasksimages/artificial-intelligence-4389372_640.jpg",
+      "description": "Understanding the design and interaction between humans and computers.",
+      "status": "active"
+    },
+    {
+      "name": "Big Data Analytics",
+      "image": "https://appnest.pro/tasksimages/monitor-1307227_640.jpg",
+      "description": "Handling and analyzing large volumes of data using big data technologies.",
+      "status": "not active"
+    },
+    {
+      "name": "Cloud Computing",
+      "image": "https://appnest.pro/tasksimages/digital-388075_640.jpg",
+      "description": "Exploration of cloud computing architectures, services, and deployment.",
+      "status": "active"
+    },
+    {
+      "name": "Computer Ethics",
+      "image": "https://appnest.pro/tasksimages/board-453758_640.jpg",
+      "description": "Ethical considerations in the field of computer science and technology.",
+      "status": "active"
+    },
+    {
+      "name": "Computer Vision",
+      "image": "https://appnest.pro/tasksimages/finger-2956974_640.jpg",
+      "description": "Understanding and processing visual information by computers.",
+      "status": "not active"
+    },
+    {
+      "name": "Embedded Systems",
+      "image": "https://appnest.pro/tasksimages/digital-388075_640.jpg",
+      "description": "Study of designing and programming embedded systems for specific tasks.",
+      "status": "active"
+    },
+    {
+      "name": "Network Security",
+      "image":"https://appnest.pro/tasksimages/bullet-457334_640.jpg",
+      "description": "Securing computer networks from unauthorized access and attacks.",
+      "status": "not active"
+    },
+    {
+      "name": "Computer Architecture",
+      "image": "https://appnest.pro/tasksimages/board-453758_640.jpg",
+      "description": "Understanding the design and structure of computer systems and processors.",
+      "status": "active"
+    }
+  ]
+}
+
+

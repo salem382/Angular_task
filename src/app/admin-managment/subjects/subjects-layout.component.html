@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+        <div class="position-relative">
+            <ul class="list-unstyled p-0 d-flex mt-4">
+                <li>
+                    <button class="d-flex align-items-center clickable-item" routerLink="/subjects" routerLinkActive="active-item" [routerLinkActiveOptions]="{exact: true}">
+                        <svg width="21" height="22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.438 6.73v8.541c0 2.563-1.282 4.271-4.271 4.271H7.333c-2.99 0-4.27-1.708-4.27-4.27V6.73c0-2.563 1.28-4.271 4.27-4.271h6.834c2.99 0 4.27 1.708 4.27 4.27Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.885 4.594v1.708c0 .94.769 1.708 1.709 1.708h1.708M7.333 11.854h3.417M7.333 15.271h6.834"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span class="mx-2">المواد الدراسية</span>
+                    </button>
+                </li>
+                <li class="mx-3">
+                    <button class="d-flex align-items-center clickable-item" routerLink="allExam" routerLinkActive="active-item">
+                        <svg width="21" height="22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.438 6.73v8.541c0 2.563-1.282 4.271-4.271 4.271H7.333c-2.99 0-4.27-1.708-4.27-4.27V6.73c0-2.563 1.28-4.271 4.27-4.271h6.834c2.99 0 4.27 1.708 4.27 4.27Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.885 4.594v1.708c0 .94.769 1.708 1.709 1.708h1.708M7.333 11.854h3.417M7.333 15.271h6.834"  stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span class="mx-2">كل التمارين</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="line position-absolute"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <router-outlet></router-outlet>
+</section>

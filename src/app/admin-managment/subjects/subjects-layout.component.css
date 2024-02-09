@@ -1,0 +1,24 @@
+.active-item {
+    color: var(--main-color-bold);
+    font-weight: bold;
+    border-bottom: 2px solid var(--main-color-bold);
+    padding-bottom: 15px;
+}
+.active-item svg {
+    stroke: var(--main-color-bold) !important;
+}
+svg {
+    stroke: var(--gray-color);
+}
+.clickable-item {
+    
+    padding-bottom: 15px;
+}
+.line {
+    position: absolute;
+    height: 2px;
+    background-color:#EEEEEE;
+    width: 50%;   
+    bottom: 0;
+    z-index: -1;
+}
