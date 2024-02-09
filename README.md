@@ -10,7 +10,7 @@ To run this project locally, you'll need to follow these steps:
    
  2. **Enter to the Folder:**
  ```bash
- cd Angular_task
+  cd Angular_task
 
 3. **test:**
  ```bash
