@@ -1,25 +1,5 @@
 # Angular_task
 
-## Installation
+To get started with this project, follow these steps:
 
-To run this project locally, you'll need to follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/salem382/Angular_task.git
-   
- 2. **Enter to the Folder:**
- ```bash
-  cd Angular_task
-
-3. **install node_mdoule:**
- ```bash
- npm i
-
-4. **run the project:**
- ```bash
- ng s
-
-5. **open browser on localhost:4200::**
- 
-
+1. **Clone the Repository:** git clone https://github.com/salem382/Angular_task.git
