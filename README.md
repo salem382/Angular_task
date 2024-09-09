@@ -17,14 +17,21 @@ This project demonstrates an implementation of undo/redo functionality for an An
 2.Install dependencies:
 ```bash
 npm install
+```
 
 3.Run the development server:
 ```bash
 ng serve
+```
 4.Open the application in a web browser:
 ```bash
 https://localhost:4200
-
+```
 ## Test the Undo/Redo functionality:
 - Fill out the form.
- - test
+- Click Undo to revert to the previous state.
+- Click Redo to restore the undone changes.
+## Future Improvements
+- Add support for nested form controls or arrays.
+- Provide user feedback when no more undo/redo operations are available
+- Store form state in a more efficient structure for complex forms.
