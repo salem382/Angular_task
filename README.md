@@ -11,7 +11,7 @@ This project demonstrates an implementation of undo/redo functionality for an An
 1.Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+cd your-repo-name ```
 
 2.Install dependencies:
 ```bash
