@@ -1,18 +1,8 @@
-# Angular_task
+# Angular Form with Undo/Redo Functionality
 
-To get started with this project, follow these steps:
+This project demonstrates an implementation of undo/redo functionality for an Angular form using reactive forms. It allows users to make changes to form fields and undo/redo these changes while preserving form state history.
 
-1. **Clone the Repository:** ``git clone https://github.com/salem382/Angular_task.git``
-2. **Navigate to the Project Directory:** ``cd Angular_task``
-3. **Install Dependencies:** ``npm i``
-4.  **Start the Development Server:** ``ng s``
-5. **Open in Browser:** ``http://localhost:4200/``
-
-Start Json server :
-
-1.**First, you need to install JSON Server globally on your machine:** ``npm install -g json-server``
-
-2.**start json server:** ``json-server --watch subject.json``
-
-
-
+## Features
+- Undo: Reverts the form to its previous state
+- Redo: Restores the form to a state that was undone.
+- Form Fields: Name, Email, Gender, and an "Agree to terms" checkbox.
